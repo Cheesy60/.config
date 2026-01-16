@@ -6,6 +6,8 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 set autoindent 
+set termguicolors
+set smartindent
 set cursorline
 set incsearch
 set hlsearch
