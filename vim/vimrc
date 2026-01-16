@@ -11,6 +11,6 @@ set smartindent
 set cursorline
 set incsearch
 set hlsearch
-autocmd FileType c nnoremap <buffer> <F5> :w <bar> !gcc % && ./a.out<CR>
+nnoremap <F5> :w<CR>!gcc %<CR>
 set nu
 colorscheme slate
