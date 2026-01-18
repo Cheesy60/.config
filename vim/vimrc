@@ -182,6 +182,6 @@ nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
 nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR> Use tab for trigger completion with characters ahead and navigate
 nnoremap <C-p> :Files ~<CR>
 nnoremap <C-n> :NERDTreeToggle<CR>
-nnoremap <F5> :w<CR>:!gcc %<CR>
+nnoremap <F5> :make<CR>
 set nu
 colorscheme slate
